@@ -18,7 +18,7 @@
 
   <body>
 
- <header th:insert="fragmentos/menu.html::menu-principal">
+ <header th:insert="~{fragmentos/menu.html::menu-principal}">
 		
 	</header>
 
@@ -89,7 +89,7 @@
 
     </main>
 
-    <footer th:insert="fragmentos/pie.html::pie">
+    <footer th:insert="~{'fragmentos/pie.html' :: pie}">
 		
 	</footer>
 
